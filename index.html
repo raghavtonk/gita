@@ -4,8 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #nav_2{
+            margin-top: 50px;
+        }
+        #nav_1{
+            padding-top: 25px;
+        }
+        #home_navbar{
+            background: #000;
+            width: 371.801px;
+            height: 982px;
+            flex-shrink: 0;
+        }
+        #nav_list li {
+            list-style-type: none;
+            padding: 15px;
+        }
+        
+        #spotify_logo{
+            background: url(<path-to-image>), rgb(16, 16, 16) 50% / cover no-repeat;
+            width: 202.576px;
+            height: 60.526px;
+            flex-shrink: 0;
+        }
+        .nav_images{
+            width: 29.645px ;
+            height: 32.116px;
+            flex-shrink: 0;
+        }
+        .nav_text{
+            padding-left: 25px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -1.14px;
+            width: 72.878px;
+            height: 30.881px;
+            flex-shrink: 0;
+        }
+        #nav_3{
+            padding-left: 27px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -1.14px;
+            width: 213.693px;
+            height: 30.881px;
+            flex-shrink: 0;
+            line-height: 40px;
+            list-style-type: none;
+        }
+        
+    </style>
 </head>
 <body>
-    hi first line 
+    <nav  id = "home_navbar">
+        <div id="nav_1">
+            <ul id = "nav_list">
+            <li><img src="https://s3-alpha-sig.figma.com/img/b2ca/5d63/d322953dba109cbc3a2430fbd4dbe803?Expires=1698019200&Signature=FGDmgDg6EOJHep3GEAqEONKA05mjQBbWclIt7DFAVYt-Jm41c2MsPW~uwj0IAc86EI3cN-Vr87mqNxZRvrxScdx3jzJ9YKzb7P3cz5aZ0KPfeM~rsPXQZI1zNltiBHuLkGcapM2HmIH8AidvnjgPiM~bv~4hyYAUa7I-OlrUxixbyozisDyiBmGYDe~rKBrXww14vToUGUh2bHvMJzKysRyqFBjHxkq~dkZK5CAGlz~polsHKKvXutiN0kgNm6z1VibstGyNh2cgHR7n3QUW-sP2W9WL1kBCtWvGD66pRtrRUEpNhscFYVMCx2lzLEktUA4HsEXm4MyGBdLlEG84WA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" id = "spotify_logo"></li> 
+            <li><img src ="share_img/fi-ss-home.png" class ="nav_images"> <strong class = "nav_text">Home</strong></li>
+            <li><img src="share_img/fi-rs-search.png" class ="nav_images"alt=""><strong class = "nav_text">Search</strong></li>
+            <li><img src="share_img/library.png" alt=""><strong class = "nav_text">Your Library</strong></li>
+            </ul>
+        </div>
+        <div class ="nav_2">
+            <ul id = "nav_list">
+                <li><img src="share_img/fi-ss-plus-small.png" alt="jabvlmnv" class ="nav_images" style=" background: url(<path-to-image>), white 50% / cover no-repeat;"><strong class = "nav_text">Create Playlist</strong></li>
+                <li><img src="share_img/fi-ss-heart.png" alt=""class ="nav_images" style="width: 10.746px;height: 10.746px;flex-shrink: 0; border-radius: 1px; padding: 9px;background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);"><strong class = "nav_text">Liked Songs</strong></li>
+                <li><img src="share_img/Group.png" style="width: 19.249px;height: 16.43px;flex-shrink: 0; border-radius: 5px;padding: 6px;background: #004638;"><strong class = "nav_text">Your Episodes</strong></li>
+            </ul>
+        </div>
+        <div id="nav_3">
+            <ul id="nav_3">
+                <li>FAV</li>
+                <li>Daily Mix 1</li>
+                <li>Discover Weekly</li>
+                <li>Malayalam</li>
+                <li>Dance / Electronix Mix</li>
+                <li>EDM / Popular</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main_page">
+        <div>
+            Good morning
+        </div>
+        <div>
+            <span><img src="share_img/fi-ss-heart.png">Liked Songs</span>
+            <span><img src="share_img/netflix playlist.png">Netflix Playlist</span>
+            <span><img src="share_img/kda.png">K/ DA</span>
+            <span><img src="share_img/dance electronic.png" alt="">Dance / Electronic Mix</span>
+        </div>
+        <div>
+           <h3> Shows you might like</h3>
+        </div>
+        <div>
+            <span><img src="share_img/Weekly Motivatio....png" alt="">Weekly Motivatio... Ben Ina Scott </span>
+            <span><img src="share_img/MEDITATION SELF.png" alt="">MEDITATION SELF Ibn Hussain Aleen </span>
+            <span><img src="share_img/The Alexa Show.png" alt="">The Alexa Show Adriana Tom </span>
+        </div>
+        <div>
+            <audio src="" controls></audio>
+        </div>
+    </div>
 </body>
 </html> 
